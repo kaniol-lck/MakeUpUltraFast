@@ -1,0 +1,198 @@
+#Profiles
+############################
+profile.VeryLow_a=非常低 *
+profile.VeryLow_b=非常低 **
+profile.VeryLow_c=非常低 ***
+profile.Low_a=低  *
+profile.Low_b=低 **
+profile.Low_c=低 ***
+profile.Medium_a=中 *
+profile.Medium_b=中 **
+profile.Medium_c=中 ***
+profile.High_a=高 *
+profile.High_b=高 **
+profile.High_c=高 ***
+profile.VeryHigh_a=非常高 *
+profile.VeryHigh_b=非常高 **
+profile.VeryHigh_c=非常高 ***
+profile.Ultra_a=超高 *
+profile.Ultra_b=超高 **
+profile.Ultra_c=超高 ***
+profile.Extreme_a=极致 *
+profile.Extreme_b=极致 **
+profile.Extreme_c=极致 ***
+
+profile.comment=非常低、低 - 适合低端硬件. 中 - 适合较好的集成显卡. 高 - 适合低端独立显卡. 非常高 - 适合中低端独立显卡. 超高、极致 - 适合中高端独立显卡
+
+#About
+#############################
+option.ACERCADE=MakeUp
+option.ACERCADE.comment=感谢使用本光影！ :). 将Optifine原生质量控件设置为正常或默认值来得到更好的质量.
+value.ACERCADE.0=v.6.61
+
+#Options
+#############################
+option.SHADOW_CASTING=阴影
+
+option.SHADOW_RES=阴影质量
+value.SHADOW_RES.0=低
+value.SHADOW_RES.1=低 远
+value.SHADOW_RES.2=中
+value.SHADOW_RES.3=中 远
+value.SHADOW_RES.4=高
+value.SHADOW_RES.5=高 远
+value.SHADOW_RES.6=超高
+value.SHADOW_RES.7=超高 远
+
+option.REFLECTION_SLIDER=反射
+value.REFLECTION_SLIDER.0=关闭
+value.REFLECTION_SLIDER.1=翻转图像
+value.REFLECTION_SLIDER.2=光线行进
+
+option.SHADOW_TYPE=阴影类型
+value.SHADOW_TYPE.0=简单
+value.SHADOW_TYPE.1=使用滤镜
+
+option.SHADOW_BLUR=阴影模糊强度
+
+option.VOL_LIGHT=体积光
+
+option.DOF=景深
+
+option.DOF_STRENGTH=景深强度
+
+option.DOF_SAMPLES_FACTOR=景深采样因子
+
+option.AO=环境光遮蔽
+value.AO.0=Off
+value.AO.1=On
+
+option.AOSTEPS=环境高采样对
+
+option.AO_STRENGHT=环境高强度
+
+option.AA_TYPE=时间采样 (Temporal sampling)
+value.AA_TYPE.0=Off
+value.AA_TYPE.1=TAA
+value.AA_TYPE.2=Denoise
+
+option.MOTION_BLUR=动态模糊
+
+option.MOTION_BLUR_STRENGTH=动态模糊强度
+
+option.VANILLA_WATER=类原版水
+
+option.WATER_TEXTURE=水材质
+value.WATER_TEXTURE.0=否
+value.WATER_TEXTURE.1=是
+
+option.WATER_COLOR_SOURCE=水颜色
+value.WATER_COLOR_SOURCE.0=光影样式
+value.WATER_COLOR_SOURCE.1=材质包
+
+option.REFLECTION=反射
+value.REFLECTION.0=Off
+value.REFLECTION.1=On
+
+option.REFRACTION=折射
+value.REFRACTION.0=Off
+value.REFRACTION.1=On
+
+option.SSR_TYPE=反射类型
+value.SSR_TYPE.0=翻转图像
+value.SSR_TYPE.1=光线行进
+
+option.SUN_REFLECTION=太阳反射
+value.SUN_REFLECTION.0=Off
+value.SUN_REFLECTION.1=On
+
+option.CLOUD_REFLECTION=体积云反射
+
+option.WAVING=摇晃的植物
+value.WAVING.0=No
+value.WAVING.1=Yes
+
+option.CHROMA_ABER=色彩偏移
+value.CHROMA_ABER.0=No
+value.CHROMA_ABER.1=Yes
+
+option.CHROMA_ABER_STRENGHT=色彩偏移强度
+
+option.WATER_ABSORPTION=水吸收系数
+
+option.WATER_TURBULENCE=水漩涡
+value.WATER_TURBULENCE.2.5=低
+value.WATER_TURBULENCE.1.7=中
+value.WATER_TURBULENCE.1.3=高
+
+option.COLOR_SCHEME=色彩样式
+value.COLOR_SCHEME.0=Legacy
+value.COLOR_SCHEME.1=Cocoa
+value.COLOR_SCHEME.2=Captain
+value.COLOR_SCHEME.3=Shoka
+value.COLOR_SCHEME.4=Ethereal
+value.COLOR_SCHEME.5=Vivid
+
+option.AVOID_DARK_LEVEL=洞穴亮度
+
+option.NIGHT_BRIGHT=夜晚亮度
+
+option.V_CLOUDS=云
+value.V_CLOUDS.0=原版
+value.V_CLOUDS.1=体积云 静态
+value.V_CLOUDS.2=体积云 动态
+
+option.CLOUD_SPEED=云速度
+value.CLOUD_SPEED.0=正常
+value.CLOUD_SPEED.1=延时摄影 1
+value.CLOUD_SPEED.2=延时摄影 2
+
+option.CLOUD_STEPS_AVG=云采样
+
+option.BLOOM=泛光
+value.BLOOM.0=Off
+value.BLOOM.1=On
+
+option.BLOOM_SAMPLES=泛光采样对
+
+option.BLACK_ENTITY_FIX=黑色实体BUG修复
+value.BLACK_ENTITY_FIX.0=Off
+value.BLACK_ENTITY_FIX.1=On
+
+option.FOG_ADJUST=迷雾
+value.FOG_ADJUST.2.0=近渲染距离
+value.FOG_ADJUST.1.0=正常渲染距离
+value.FOG_ADJUST.0.5=远渲染距离
+
+option.sunPathRotation=太阳角
+
+#Screens
+screen.ADVANCED_SCREEN=高级选项
+screen.ADVANCED_SCREEN.comment=设置高级选项
+
+screen.SHADOWS_SCREEN=阴影选项
+screen.SHADOWS_SCREEN.comment=设置阴影选项
+
+screen.DOF_SCREEN=景深选项
+screen.DOF_SCREEN.comment=设置景深选项
+
+screen.AO_SCREEN=环境光遮蔽选项
+screen.AO_SCREEN.comment=设置环境光遮蔽选项
+
+screen.WATER_SCREEN=水选项
+screen.WATER_SCREEN.comment=设置水选项
+
+screen.POST_SCREEN=后期效果选项
+screen.POST_SCREEN.comment=设置后期效果选项
+
+screen.DARKNESS_SCREEN=暗度选项
+screen.DARKNESS_SCREEN.comment=设置亮度/暗度选项
+
+screen.CLOUDS_SCREEN=云选项
+screen.CLOUDS_SCREEN.comment=设置云选项
+
+screen.SUN_SCREEN=太阳选项
+screen.SUN_SCREEN.comment=设置太阳选项
+
+screen.FOG_SCREEN=迷雾选项
+screen.FOG_SCREEN.comment=设置迷雾选项
